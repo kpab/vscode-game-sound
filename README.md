@@ -1,44 +1,64 @@
 # VSCode Game Sound
 
+![VSCode Game Sound Icon](media/icon.png)
+
+> **Turn your coding into an epic RPG adventure!** 🎮🔊⌨️
+
 [English](#english) | [日本語](#japanese)
 
 <a id="english"></a>
 
 ## English
 
-Add exciting game-like action sounds to your coding experience in Visual Studio Code!
+Enhance your coding experience with immersive RPG-style sound effects for every keystroke in Visual Studio Code! This extension adds satisfying mechanical keyboard sounds with a fantasy game twist.
 
-### Features
+### ✨ Features
 
-- Game-inspired sound effects for every key press
-- Special sound effects for different keys (Enter, Tab, Space, Backspace, etc.)
-- Combo system that recognizes rapid typing and plays special sounds
-- Customizable volume and settings
-- Anti-key-repeat protection (prevents sound flooding when holding down keys)
+- **RPG-Inspired Sounds**: Each keystroke produces exciting game-like sound effects that make coding more enjoyable
+- **Special Key Effects**: Unique sounds for Enter, Tab, Space, Backspace, arrow keys and more
+- **Multi-Platform Support**: Works seamlessly on Windows, macOS, and Linux
+- **Customizable Settings**: Adjust volume and enable/disable specific key sounds
+- **Anti-Key-Repeat**: Prevents sound flooding when holding down keys
 
-### Settings
+### 🎮 Why Use Game Sound?
+
+- **Make Coding Fun**: Transform routine coding sessions into an engaging adventure
+- **Reduce Fatigue**: Auditory feedback makes long coding sessions less monotonous
+- **Satisfy Mechanical Keyboard Lovers**: Get the tactile feeling of a premium keyboard through sound
+- **Impress Your Colleagues**: Make your coding look (and sound) epic during pair programming or presentations
+
+### ⚙️ Settings
 
 This extension supports the following settings:
 
 - `gameSound.enabled`: Enable or disable game sounds
 - `gameSound.volume`: Sound volume (0-100)
 - `gameSound.keyCooldown`: Minimum interval between sounds for the same key (milliseconds)
-- `gameSound.comboEnabled`: Enable combo sounds and notifications when typing quickly
 - `gameSound.specialKeys`: Enable/disable specific special key sounds
 
-### Commands
+### 🎯 Commands
 
 - `gameSound.toggle`: Toggle game sounds on/off
 
-### Supported Platforms
+### 🖥️ Supported Platforms
 
 - Windows
 - macOS
 - Linux (requires a Sound Player installation)
 
-### Installation
+### 📥 Installation
 
-You can install this extension from the VSCode Extension Marketplace by searching for "VSCode Game Sound".
+1. Open VS Code
+2. Go to Extensions (Ctrl+Shift+X / Cmd+Shift+X)
+3. Search for "VSCode Game Sound"
+4. Click Install
+5. Start coding and enjoy the sounds!
+
+### 🌐 Links
+
+- [Website](https://kpab.github.io/vscode-game-sound-page/)
+- [Source Code](https://github.com/kpab/vscode-game-sound)
+- [Issue Tracker](https://github.com/kpab/vscode-game-sound/issues)
 
 ---
 
@@ -46,69 +66,79 @@ You can install this extension from the VSCode Extension Marketplace by searchin
 
 ## 日本語
 
-Visual Studio Code でのコーディングにゲームのようなアクション効果音を追加します！
+Visual Studio Code でのコーディングに臨場感あふれるRPG風効果音を追加しましょう！このエクステンションは、ファンタジーゲームテイストのメカニカルキーボード音を実現します。
 
-### 機能
+### ✨ 機能
 
-- ゲームにインスパイアされたキー入力音
-- 特殊キー（Enter、Tab、Space、Backspace など）に独自の効果音
-- 連続タイピングを認識し特殊なコンボ効果音を再生
-- カスタマイズ可能な音量と設定
-- 長押し対策（キーリピート検出）
+- **RPG風サウンド**: キー入力ごとにゲームのような効果音が鳴り、コーディングがより楽しくなります
+- **特殊キー効果音**: Enter、Tab、Space、Backspace、矢印キーなどに独自の効果音を設定
+- **マルチプラットフォーム対応**: Windows、macOS、Linuxでシームレスに動作
+- **カスタマイズ可能**: 音量調整や特定のキー音のオン/オフ切り替えが可能
+- **キーリピート対策**: キーの長押し時に音が連続再生されるのを防止
 
-### 設定オプション
+### 🎮 なぜゲームサウンドを使うのか？
+
+- **コーディングを楽しく**: 日常のコーディング作業を魅力的な冒険に変えます
+- **疲労軽減**: 聴覚フィードバックにより、長時間のコーディングでも単調さを感じにくくなります
+- **メカニカルキーボード愛好家に**: プレミアムキーボードのタクタイル感を音で実現
+- **同僚に感銘を**: ペアプログラミングやプレゼンテーション中にエピックなコーディング体験を
+
+### ⚙️ 設定オプション
 
 この拡張機能は以下の設定をサポートしています：
 
 - `gameSound.enabled`: 効果音を有効/無効にする
 - `gameSound.volume`: 音量（0-100）
 - `gameSound.keyCooldown`: 同一キーの再生間隔（ミリ秒）
-- `gameSound.comboEnabled`: 連続タイピング時のコンボサウンドと通知の有効/無効
 - `gameSound.specialKeys`: 特殊キーの有効/無効設定
 
-### コマンド
+### 🎯 コマンド
 
 - `gameSound.toggle`: ゲーム効果音のオン/オフを切り替え
 
-### 対応プラットフォーム
+### 🖥️ 対応プラットフォーム
 
 - Windows
 - macOS
-- Linux (要 Sound Player のインストール)
+- Linux (要Sound Playerのインストール)
 
-### インストール
+### 📥 インストール方法
 
-VSCode の拡張機能マーケットプレイスから「VSCode Game Sound」を検索してインストールできます。
+1. VS Codeを開く
+2. 拡張機能メニューを開く (Ctrl+Shift+X / Cmd+Shift+X)
+3. "VSCode Game Sound"を検索
+4. インストールをクリック
+5. コーディングを始めて効果音を楽しもう！
 
-## Sound
+### 🌐 リンク
+
+- [Webサイト](https://kpab.github.io/vscode-game-sound-page/)
+- [ソースコード](https://github.com/kpab/vscode-game-sound)
+- [問題報告](https://github.com/kpab/vscode-game-sound/issues)
+
+---
+
+## Supported Sound Files / サポートされている音声ファイル
 
 ### Basic Key Sounds / 基本キーサウンド
 
 - `key-press.mp3` - Normal key typing sound / 通常のキー入力音
-- `enter.mp3` - Enter key sound effect / Enter キー用効果音
-- `tab.mp3` - Tab key sound effect / Tab キー用効果音
+- `enter.mp3` - Enter key sound effect / Enterキー用効果音
+- `tab.mp3` - Tab key sound effect / Tabキー用効果音
 - `space.mp3` - Space key sound effect / スペースキー用効果音
-- `backspace.mp3` - Backspace key sound effect / Backspace キー用効果音
+- `backspace.mp3` - Backspace key sound effect / Backspaceキー用効果音
 
 ### Special Key Sounds / 特殊キーサウンド
 
-- `delete.mp3` - Delete key or large text deletion / Delete キーまたは大量テキスト削除音
+- `delete.mp3` - Delete key or large text deletion / Deleteキーまたは大量テキスト削除音
 - `arrowup.mp3` - Up arrow key / 上矢印キー
 - `arrowdown.mp3` - Down arrow key / 下矢印キー
 - `arrowleft.mp3` - Left arrow key / 左矢印キー
 - `arrowright.mp3` - Right arrow key / 右矢印キー
-- `ctrl.mp3` - Ctrl key / Ctrl キー
-- `shift.mp3` - Shift key / Shift キー
-- `alt.mp3` - Alt key / Alt キー
-- `escape.mp3` - Escape key / Escape キー
-
-### Combo Sounds / コンボサウンド
-
-- `combo-10.mp3` - Sound for 10-hit combo / 10 ヒットコンボ音
-- `combo-20.mp3` - Sound for 20-hit combo / 20 ヒットコンボ音
-- `combo-30.mp3` - Sound for 30-hit combo / 30 ヒットコンボ音
-- `combo-50.mp3` - Sound for 50-hit combo / 50 ヒットコンボ音
-- `combo-100.mp3` - Sound for 100-hit combo / 100 ヒットコンボ音
+- `ctrl.mp3` - Ctrl key / Ctrlキー
+- `shift.mp3` - Shift key / Shiftキー
+- `alt.mp3` - Alt key / Altキー
+- `escape.mp3` - Escape key / Escapeキー
 
 ## License / ライセンス
 

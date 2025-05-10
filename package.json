@@ -1,12 +1,34 @@
 {
   "name": "vscode-game-sound",
   "displayName": "VSCode Game Sound",
-  "description": "Add exciting game-like action sounds to your coding experience",
-  "version": "0.1.2",
+  "description": "Add exciting game-like action sounds to your coding experience - turn typing into an RPG adventure!",
+  "version": "1.1.2",
   "engines": {
     "vscode": "^1.60.0"
   },
   "publisher": "kpab",
+  "keywords": [
+    "sound",
+    "audio",
+    "typing",
+    "keyboard",
+    "game",
+    "rpg",
+    "fun",
+    "productivity",
+    "mechanical keyboard",
+    "sound effects",
+    "entertainment"
+  ],
+  "categories": [
+    "Other",
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kpab/vscode-game-sound"
+  },
+  "homepage": "https://kpab.github.io/vscode-game-sound-page/",
   "main": "./dist/extension.js",
   "activationEvents": [
     "onStartupFinished"
@@ -38,11 +60,6 @@
           "minimum": 0,
           "maximum": 500,
           "description": "Minimum time between sounds for the same key (milliseconds)"
-        },
-        "gameSound.comboEnabled": {
-          "type": "boolean",
-          "default": true,
-          "description": "Enable combo sounds and notifications when typing quickly"
         },
         "gameSound.specialKeys": {
           "type": "object",
