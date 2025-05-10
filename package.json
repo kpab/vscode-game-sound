@@ -2,7 +2,7 @@
   "name": "vscode-game-sound",
   "displayName": "VSCode Game Sound",
   "description": "Add exciting game-like action sounds to your coding experience",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "engines": {
     "vscode": "^1.60.0"
   },
@@ -11,6 +11,11 @@
   "activationEvents": [
     "onStartupFinished"
   ],
+  "icon": "media/icon.png",
+  "galleryBanner": {
+    "color": "#00008B",
+    "theme": "dark"
+  },
   "contributes": {
     "configuration": {
       "title": "Game Sound",
@@ -59,7 +64,8 @@
           "description": "Enable special sounds for specific keys"
         }
       }
-    },"commands": [
+    },
+    "commands": [
       {
         "command": "gameSound.toggle",
         "title": "Toggle Game Sound"
