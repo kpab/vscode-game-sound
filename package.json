@@ -1,0 +1,81 @@
+{
+  "name": "vscode-game-sound",
+  "displayName": "VSCode Game Sound",
+  "description": "Add exciting game-like action sounds to your coding experience",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "publisher": "kpab",
+  "main": "./dist/extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "configuration": {
+      "title": "Game Sound",
+      "properties": {
+        "gameSound.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable or disable game sounds"
+        },
+        "gameSound.volume": {
+          "type": "number",
+          "default": 50,
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Sound volume (0-100)"
+        },
+        "gameSound.keyCooldown": {
+          "type": "number",
+          "default": 70,
+          "minimum": 0,
+          "maximum": 500,
+          "description": "Minimum time between sounds for the same key (milliseconds)"
+        },
+        "gameSound.comboEnabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable combo sounds and notifications when typing quickly"
+        },
+        "gameSound.specialKeys": {
+          "type": "object",
+          "default": {
+            "Enter": true,
+            "Tab": true,
+            "Space": true,
+            "Backspace": true,
+            "Delete": true,
+            "ArrowUp": true,
+            "ArrowDown": true,
+            "ArrowLeft": true,
+            "ArrowRight": true,
+            "Ctrl": true,
+            "Shift": true,
+            "Alt": true,
+            "Escape": true
+          },
+          "description": "Enable special sounds for specific keys"
+        }
+      }
+    },"commands": [
+      {
+        "command": "gameSound.toggle",
+        "title": "Toggle Game Sound"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^16.x",
+    "@types/vscode": "^1.60.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "play-sound": "^1.1.5"
+  }
+}
