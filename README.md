@@ -1,6 +1,6 @@
 # VSCode Game Sound
 
-![VSCode Game Sound Icon](media/icon.png)
+![VSCode Game Sound](media/main.png)
 
 > **Turn your coding into an epic RPG adventure!** 🎮🔊⌨️
 
@@ -66,13 +66,13 @@ This extension supports the following settings:
 
 ## 日本語
 
-Visual Studio Code でのコーディングに臨場感あふれるRPG風効果音を追加しましょう！このエクステンションは、ファンタジーゲームテイストのメカニカルキーボード音を実現します。
+Visual Studio Code でのコーディングに臨場感あふれる RPG 風効果音を追加しましょう！このエクステンションは、ファンタジーゲームテイストのメカニカルキーボード音を実現します。
 
 ### ✨ 機能
 
-- **RPG風サウンド**: キー入力ごとにゲームのような効果音が鳴り、コーディングがより楽しくなります
+- **RPG 風サウンド**: キー入力ごとにゲームのような効果音が鳴り、コーディングがより楽しくなります
 - **特殊キー効果音**: Enter、Tab、Space、Backspace、矢印キーなどに独自の効果音を設定
-- **マルチプラットフォーム対応**: Windows、macOS、Linuxでシームレスに動作
+- **マルチプラットフォーム対応**: Windows、macOS、Linux でシームレスに動作
 - **カスタマイズ可能**: 音量調整や特定のキー音のオン/オフ切り替えが可能
 - **キーリピート対策**: キーの長押し時に音が連続再生されるのを防止
 
@@ -100,11 +100,11 @@ Visual Studio Code でのコーディングに臨場感あふれるRPG風効果�
 
 - Windows
 - macOS
-- Linux (要Sound Playerのインストール)
+- Linux (要 Sound Player のインストール)
 
 ### 📥 インストール方法
 
-1. VS Codeを開く
+1. VS Code を開く
 2. 拡張機能メニューを開く (Ctrl+Shift+X / Cmd+Shift+X)
 3. "VSCode Game Sound"を検索
 4. インストールをクリック
@@ -112,7 +112,7 @@ Visual Studio Code でのコーディングに臨場感あふれるRPG風効果�
 
 ### 🌐 リンク
 
-- [Webサイト](https://kpab.github.io/vscode-game-sound-page/)
+- [Web サイト](https://kpab.github.io/vscode-game-sound-page/)
 - [ソースコード](https://github.com/kpab/vscode-game-sound)
 - [問題報告](https://github.com/kpab/vscode-game-sound/issues)
 
@@ -123,22 +123,22 @@ Visual Studio Code でのコーディングに臨場感あふれるRPG風効果�
 ### Basic Key Sounds / 基本キーサウンド
 
 - `key-press.mp3` - Normal key typing sound / 通常のキー入力音
-- `enter.mp3` - Enter key sound effect / Enterキー用効果音
-- `tab.mp3` - Tab key sound effect / Tabキー用効果音
+- `enter.mp3` - Enter key sound effect / Enter キー用効果音
+- `tab.mp3` - Tab key sound effect / Tab キー用効果音
 - `space.mp3` - Space key sound effect / スペースキー用効果音
-- `backspace.mp3` - Backspace key sound effect / Backspaceキー用効果音
+- `backspace.mp3` - Backspace key sound effect / Backspace キー用効果音
 
 ### Special Key Sounds / 特殊キーサウンド
 
-- `delete.mp3` - Delete key or large text deletion / Deleteキーまたは大量テキスト削除音
+- `delete.mp3` - Delete key or large text deletion / Delete キーまたは大量テキスト削除音
 - `arrowup.mp3` - Up arrow key / 上矢印キー
 - `arrowdown.mp3` - Down arrow key / 下矢印キー
 - `arrowleft.mp3` - Left arrow key / 左矢印キー
 - `arrowright.mp3` - Right arrow key / 右矢印キー
-- `ctrl.mp3` - Ctrl key / Ctrlキー
-- `shift.mp3` - Shift key / Shiftキー
-- `alt.mp3` - Alt key / Altキー
-- `escape.mp3` - Escape key / Escapeキー
+- `ctrl.mp3` - Ctrl key / Ctrl キー
+- `shift.mp3` - Shift key / Shift キー
+- `alt.mp3` - Alt key / Alt キー
+- `escape.mp3` - Escape key / Escape キー
 
 ## License / ライセンス
 
