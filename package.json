@@ -2,7 +2,7 @@
   "name": "vscode-game-sound",
   "displayName": "VSCode Game Sound",
   "description": "Add exciting game-like action sounds to your coding experience - turn typing into an RPG adventure!",
-  "version": "1.1.2",
+  "version": "1.2.2",
   "engines": {
     "vscode": "^1.60.0"
   },
